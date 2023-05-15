@@ -16,7 +16,8 @@
         <activity
             android:name=".MainActivity"
             android:label="간단 웹브라우저"
-            android:theme="@style/Theme.Project6_2.NoActionBar">
+            android:theme="@style/Theme.Project6_2.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
